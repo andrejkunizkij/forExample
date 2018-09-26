@@ -1,0 +1,139 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #EBEBEB;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.wrap {
+	width: 950px;
+	margin: auto;
+	margin-top: 40px;
+	background-color: white;
+}
+.header a {
+	text-decoration: none;
+	font-size: 50px;
+	color:black;
+	font-family: Georgia;
+	float: left;
+	margin-top: 30px;
+}
+.header p {
+	float: right;
+	color: #999999;
+	margin-top: 50px;
+	font-size: 17px;
+	font-family: Georgia;
+}
+.clearfix {
+	clear: both; 
+}
+.header {
+	margin: 50px;
+}
+.top-menu {
+	background-color: #EA9B23;
+	list-style-type: none;
+	display: flex;
+	justify-content:space-around;
+	height: 80px;
+	margin-bottom: 50px;
+}
+.top-menu a {
+text-decoration: none;
+text-align: center;
+color:#F7DAAF;
+display: block;
+font-size: 18px;
+ padding: 27px;
+}
+.top-menu a:hover {
+	 color: #FFFAF0;
+}
+.active:hover {
+color:#F7DAAF;	
+}
+img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.left {
+	float: left;
+	width: 300px;
+	font-family: "Trebuchet MS";
+	padding: 12px;
+}
+.right {
+	float: right;
+	width: 600px;
+	font-family: "Trebuchet MS";
+	padding: 12px;
+}
+.left a, .right a {
+	color:#F0A003;
+}
+.left ul {
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+.left li {
+	background: url("li.gif") no-repeat 0 ;
+	padding: 7px 16px;
+	padding-right: 8px;
+	border-bottom: 1px solid #E9E9E9;
+	font-size: 14px;
+
+}
+.left a:hover {
+	text-decoration: none;
+}
+.left h3,p {
+	margin-left: 40px;
+}
+.left h3 {
+	font-size: 23px;
+}
+.left p {
+	text-align: justify;
+	margin-bottom: 50px;
+	font-size: 15px;
+}
+.right p {
+	text-align: justify;
+	font-size: 15px;
+	padding-right: 7px;
+	margin-bottom: 40px;
+}
+.right h2 {
+	margin-left: 40px;
+	font-size: 35px;
+}
+span {
+	color:#888888;
+	} 
+	.right a:hover {
+	text-decoration: none;
+	}
+.more {
+	margin-left: 420px;
+}
+.more a {
+	text-decoration: none;
+	border: 1px solid #E9E9E9; 
+	padding: 7px;
+}
+.more a:hover {
+background: #FCF3E6;
+}
+.footer {
+	text-align: center;
+	padding:  50px;
+	font-size: 13px;
+	border-top:1px solid #E9E9E9;
+}
+.footer a {
+	color:#F0A003;
+}
+.footer a:hover {
+	text-decoration: none;
+}
